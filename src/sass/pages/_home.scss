@@ -1,0 +1,21 @@
+.col-only-4{
+    @include flex-width(25%);
+    @media (max-width: 1552px) {
+        @include flex-width(33.33%);
+    }
+}   
+
+#world-map{
+    height: 252px;
+    width: 100%;
+}
+.info-table{
+    tbody, thead, tr, td, th {
+        border: none !important; 
+    }
+    tr{
+        
+        padding: 12px 0;
+        border-bottom: 1px solid #E5E7E8 !important;
+    }
+}
